@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsynchronousCode", "Asynchr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPI", "ProductAPI\ProductAPI.csproj", "{47F97BD4-1033-41E1-985C-F0A92DD69000}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPIDB", "ProductAPIDB\ProductAPIDB.csproj", "{B0633488-F026-40B3-942B-1693A87FA5F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{47F97BD4-1033-41E1-985C-F0A92DD69000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47F97BD4-1033-41E1-985C-F0A92DD69000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47F97BD4-1033-41E1-985C-F0A92DD69000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0633488-F026-40B3-942B-1693A87FA5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0633488-F026-40B3-942B-1693A87FA5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0633488-F026-40B3-942B-1693A87FA5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0633488-F026-40B3-942B-1693A87FA5F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
