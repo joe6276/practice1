@@ -11,6 +11,10 @@ namespace ProductAPIDB.Profiles
         {
             CreateMap<AddProduct, Product>();
             CreateMap<AddCategory, Category>();
+            CreateMap<RegisterUser, User>().ForMember(
+
+                dest => dest.UserName, u => u.MapFrom(src => src.Email));
+            CreateMap<User, UserResponse>();
         }
     }
 }
